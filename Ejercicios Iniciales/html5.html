@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Parrafos -->
+    <h1>Luis</h1>
+    <h2>Miguel</h2>
+    <h3>Martinez</h3>
+    <h4>Vargas</h4>
+    <p style="color: blue">Esto es un texto <br>esto es un parrafo</p>
+    <a href="http://twitch.tv/rubius">Ruben</a>
+    <a href="http://twitch.tv/rubius" target="_blank">Ruben</a>
+    <ol> <!--Con orden especifico -->
+        <li>Juan</li>
+        <li>Carlos</li>
+        <li>3</li>
+    </ol>
+    <br>
+    <ul> <!--Sin orden especifico -->
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+    </ul>
+    <dl>
+        <dt><h2><strong>Imagen</strong></h2>
+        <dd>Esta es una representacion de la realidad <br><img src="https://dameunapalabra.files.wordpress.com/2014/06/cabecera-dameunapalabra.png" alt="" style="width:50%"/></dd>
+    </dt>
+    </dl>
+
+    <ol>
+        <li>Colombia</li>
+        <ul>
+            <li>Cundinamarca</li>
+            <li>Antioquia</li>
+            <li>Cauca</li>
+        </ul>
+        <li>Argentina</li>
+        <ul>
+            <li>Cundinamarca</li>
+            <li>Antioquia</li>
+            <li>Cauca</li>
+        </ul>
+    </ol>
+    <ol>
+        <li>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </li>
+        <li>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </li>
+        <li>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </li>
+    </ol>
+    <!-- ol>li*2>ul>li*2
+        ol --lista ordenada
+        li - lista de items
+        ul -- lista de sin orden
+        Una lista ordenada con una lista de items, cada lista de items va a contener una lista que no tiene orden -->
+    <form action="pagina x" method="POST">
+        <p>Ingrese su usario: </p>
+        <input type="text" name="texto" size="20"/>
+        <p>Ingrese su contraseña: </p>
+        <input type="password" name="password" size="20"/>
+        <input type="submit" value="enviar" size="20"/>
+        <input type="reset" value="borar" size="20"/>
+        <br>
+        <br>
+        <textarea name="quejas" id="" cols="80" rows=""></textarea>
+        <input type="submit" value="enviar" size="20"/>
+        <input type="reset" value="borar" size="20"/>
+        <br>
+        <br>
+        <input type="checkbox" /> <br>
+        <input type="radio" /> <br>
+
+        <select name="cuidades" id="">
+            <option value="1">Popayan</option>
+            <option value="2">Pasto</option>
+            <option value="3">Cali</option>
+            <option value="4">Bogota</option>
+            <option value="5">Pereira</option>
+        </select>
+    <p>Presione Ctrl para seleccionar varias cuidades</p> 
+        <select name="cuidades[]" id="" multiple>
+            <option value="1">Popayan</option>
+            <option value="2">Pasto</option>
+            <option value="3">Cali</option>
+            <option value="4">Bogota</option>
+            <option value="5">Pereira</option>
+        </select>
+        <select name="articulos" id="">
+            <optgroup label="Herramientas">
+                <option value="1">Popayan</option>
+                <option value="2">Pasto</option>
+                <option value="3">Cali</option>
+                <option value="4">Bogota</option>
+                <option value="5">Pereira</option>
+            </optgroup>
+            <optgroup label="prendas">
+                <option value="1">Popayan</option>
+                <option value="2">Pasto</option>
+                <option value="3">Cali</option>
+                <option value="4">Bogota</option>
+                <option value="5">Pereira</option>
+            </optgroup>
+        </select>
+        <fieldset >
+            <legend>Login</legend>
+        <br>
+        <input type="text" placeholder="Ingrese aqui los datos" required>
+        <br>
+        <input type="password" placeholder="contraseña" required>
+        <br>
+        <input type="range" placeholder="e-mail">
+        <br>
+        <input type="color">
+        <br>
+        <input type="number" min="1" max="10">
+        <br>
+        <input type="text" minlength="2" maxlength="6">
+        <br>
+        <input type="text" list="cosas">
+        <datalist id="cosas">
+            <option value="cosa1"></option>
+            <option value="cosa2"></option>
+            <option value="cosa3"></option>
+            <option value="cosa4"></option>
+        </datalist>
+        <br>
+        <input type="file">
+        <br>
+        <input type="submit">
+        </fieldset>
+    </form>
+
+    <audio controls>
+       <source src="C:/Users/luis1/Music/LUIS MIGUEL/Alesso-Years.mp3">
+    </audio>
+    <video src="Multimedia1.mp4" controls></video> 
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/bpOSxM0rNPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
